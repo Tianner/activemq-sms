@@ -19,7 +19,7 @@ public class QueueMapReceiver implements MessageListener{
 			System.out.println("telephone="+telephone);
 			System.out.println("randomCode="+randomCode);
 			MsgUtils.sendMsg(telephone, randomCode);
-			System.out.println("发送成功！");
+			System.out.println("结果发送成功！");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
